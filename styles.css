@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header-links{
+    
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header{
+    background: #1f2937;
+    color: white;
+    height: 550px;
+    margin: 0;
+
+}
+
+.header-content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 400px;
+    
+}
+
+.image-section{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 400px;
+}
+
+.header-image{
+    width: 400px;
+
+}
+
+.image-section{
+display: flex;
+justify-content: center;
+
+}
+
+.image-section-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    gap: 48px;
+}
+
+.char-image{
+    width: 100px;
+}
+
+.images{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section{
+    
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content-button{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    box-shadow: none;
+    
+}
+
+.quote-container{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.sign-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:48px;
+    background: #3882f6;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background:#1f2937;
+    flex: 1;
+}
