@@ -1,9 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
     font-family: sans-serif;
-    
 }
 
 h1{
@@ -72,17 +75,14 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 800px;
     gap: 48px;
+    width: 50%;
 }
 
-.char-image{
-    width: 100px;
-}
 
-.images{
+
+.img{
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
